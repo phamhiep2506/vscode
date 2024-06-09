@@ -37,7 +37,7 @@
     {
         "key": "ctrl+\\",
         "command": "workbench.action.terminal.toggleTerminal",
-        "when": "editorTextFocus || terminalFocus"
+        "when": "filesExplorerFocus || editorTextFocus || terminalFocus"
     },
     // Next & previous quick open
     {

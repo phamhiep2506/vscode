@@ -55,10 +55,10 @@
     // Custom color
     "workbench.colorCustomizations": {
         // Error lens
-        "errorLens.errorBackground": "#ff000000",
-        "errorLens.warningBackground": "#ff000000",
-        "errorLens.infoBackground": "#ff000000",
-        "errorLens.hintBackground": "#ff000000",
+        "errorLens.errorBackground": "#00000000",
+        "errorLens.warningBackground": "#00000000",
+        "errorLens.infoBackground": "#00000000",
+        "errorLens.hintBackground": "#00000000",
         // Cursor
         "editorCursor.foreground": "#fabd2f",
         "editorCursor.background": "#1d2021",
@@ -70,7 +70,13 @@
         "tab.activeBorder": "#fabd2f",
         "tab.inactiveBackground": "#000000",
         "tab.activeBackground": "#000000",
-        "editorGroupHeader.tabsBackground": "#000000"
+        "editorGroupHeader.tabsBackground": "#000000",
+        "quickInput.background": "#000000",
+        "editorSuggestWidget.background": "#000000",
+        "list.focusOutline": "#ebdbb2",
+        "list.focusBackground": "#000000",
+        "list.inactiveSelectionBackground": "#000000",
+        "list.inactiveSelectionForeground": "#dbdbb2",
     },
     // Error lens
     "errorLens.gutterIconsEnabled": true,
@@ -99,6 +105,10 @@
         {
             "before": ["<leader>", "f", "b"],
             "commands": ["workbench.action.showAllEditors"]
+        },
+        {
+            "before": ["<leader>", "f", "s"],
+            "commands": ["workbench.action.gotoSymbol"]
         },
         // Jump
         {
@@ -165,10 +175,6 @@
         {
             "before": ["g", "r"],
             "commands": ["editor.action.goToReferences"]
-        },
-        {
-            "before": ["g", "s"],
-            "commands": ["workbench.action.gotoSymbol"]
         },
         {
             "before": ["g", "b"],
@@ -271,5 +277,4 @@
             "commands": ["editor.action.addSelectionToNextFindMatch"]
         },
     ],
-    "glassit.alpha": 220,
 }
