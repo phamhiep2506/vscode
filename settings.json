@@ -15,6 +15,7 @@
     "editor.selectionHighlight": false,
     "editor.wordWrap": "on",
     "editor.lightbulb.enabled": "off",
+    // "editor.renderWhitespace": "all",
     // "breadcrumbs.enabled": false,
     "workbench.tree.enableStickyScroll": false,
     "editor.stickyScroll.enabled": false,
@@ -32,11 +33,9 @@
     "workbench.activityBar.location": "bottom",
     // Explorer
     "explorer.compactFolders": false,
+    "workbench.tree.indent": 20,
     // Apc
     "apc.font.family": "JetBrains Mono",
-    "apc.electron": {
-        "frame": false,
-    },
     "apc.listRow": {
         "height": 24,
         "fontSize": 14,
@@ -62,21 +61,27 @@
         // Cursor
         "editorCursor.foreground": "#fabd2f",
         "editorCursor.background": "#1d2021",
-        // Background
+        // Editor
         "editor.background": "#000000",
         "sideBar.background": "#000000",
         "statusBar.background": "#000000",
         "terminal.background": "#000000",
+        // Tab
         "tab.activeBorder": "#fabd2f",
         "tab.inactiveBackground": "#000000",
         "tab.activeBackground": "#000000",
         "editorGroupHeader.tabsBackground": "#000000",
+        // Fuzzy file
         "quickInput.background": "#000000",
+        // Autocomplete
         "editorSuggestWidget.background": "#000000",
+        // Explorer
         "list.focusOutline": "#ebdbb2",
         "list.focusBackground": "#000000",
         "list.inactiveSelectionBackground": "#000000",
         "list.inactiveSelectionForeground": "#dbdbb2",
+        // Tooltip
+        "editorHoverWidget.background": "#000000"
     },
     // Error lens
     "errorLens.gutterIconsEnabled": true,
